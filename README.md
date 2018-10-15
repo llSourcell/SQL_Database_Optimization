@@ -1,6 +1,6 @@
 # SQLNet
 
-This repo provides an implementation of SQLNet and Seq2SQL neural networks for predicting SQL queries on [WikiSQL dataset](https://github.com/salesforce/WikiSQL). The paper is available at [here](https://arxiv.org/abs/1711.04436).
+This is the code for [this](https://youtu.be/Rw3ewEXOKC8) video on Youtube by Siraj Raval. This repo provides an implementation of SQLNet and Seq2SQL neural networks for predicting SQL queries on [WikiSQL dataset](https://github.com/salesforce/WikiSQL). The paper is available at [here](https://arxiv.org/abs/1711.04436).
 
 ## Citation
 
@@ -91,3 +91,6 @@ Test a trained Seq2SQL model with Reinforcement learning
 python test.py --baseline --dataset 1 --rl
 ```
 
+## Credits
+
+Credits for this code go to [xiaojunxu](https://github.com/xiaojunxu/SQLNet). I've merely created a wrapper to get people started.
